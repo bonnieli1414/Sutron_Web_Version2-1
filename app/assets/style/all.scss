@@ -1,6 +1,15 @@
+// 套件
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
+// Configuration
+@import "./config/variables";
+@import "./config/mixins";
 
-@import './layout/index.scss'
+// 全站設定
+@import "./layout/base";
+@import "./layout/root";
+
+// Pages
+@import "./pages/index";

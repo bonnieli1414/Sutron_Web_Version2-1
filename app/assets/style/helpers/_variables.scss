@@ -67,7 +67,8 @@ $colors: (
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
-$primary:       #00cc99; // $blue !default;
+$primary:       #3D8BA0 !default;
+$primary:       $blue !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -249,6 +250,21 @@ $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
 // scss-docs-start spacer-variables-maps
 $spacer: 1rem !default;
 $spacers: (
+   0: 0,
+   1: $spacer * .25,
+   2: $spacer * .5,
+   3: $spacer * .75, 
+   4: $spacer * 1,
+   5: $spacer * 1.25,
+   6: $spacer * 1.5,
+   7: $spacer * 1.75,
+   8: $spacer * 2,
+   9: $spacer * 2.25,
+  10: $spacer * 2.5,
+  11: $spacer * 2.75,
+  12: $spacer * 3,
+) !default;
+$spacers: (
   0: 0,
   1: $spacer * .25,
   2: $spacer * .5,
@@ -285,6 +301,7 @@ $body-text-align:           null !default;
 //
 // Style anchor elements.
 
+$link-color:                              $light !default;
 $link-color:                              $primary !default;
 $link-decoration:                         underline !default;
 $link-shade-percentage:                   20% !default;
@@ -441,6 +458,13 @@ $line-height-base:            1.5 !default;
 $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
+$h1-font-size:                $font-size-base * 3.5 !default;
+$h2-font-size:                $font-size-base * 3 !default;
+$h3-font-size:                $font-size-base * 2.5 !default;
+$h4-font-size:                $font-size-base * 1.75 !default;
+$h5-font-size:                $font-size-base * 1.125 !default;
+$h6-font-size:                $font-size-base !default;
+
 $h1-font-size:                $font-size-base * 2.5 !default;
 $h2-font-size:                $font-size-base * 2 !default;
 $h3-font-size:                $font-size-base * 1.75 !default;
@@ -464,7 +488,7 @@ $font-sizes: (
 $headings-margin-bottom:      $spacer * .5 !default;
 $headings-font-family:        null !default;
 $headings-font-style:         null !default;
-$headings-font-weight:        500 !default;
+$headings-font-weight:        700 !default;
 $headings-line-height:        1.2 !default;
 $headings-color:              null !default;
 // scss-docs-end headings-variables
