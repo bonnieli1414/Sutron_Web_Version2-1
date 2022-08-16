@@ -13510,7 +13510,7 @@ textarea.form-control-lg {
     text-align: center;
     background-color: #fff;
     position: absolute;
-    z-index: 99999;
+    z-index: 9999;
     top: 62px;
     left: 0%;
     transform: translateY(-200%);
@@ -13617,4 +13617,9 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 2;
+}
+
+footer {
+  z-index: 1;
 }/*# sourceMappingURL=all.css.map */
