@@ -1,8 +1,19 @@
+body {
+    color: $success;
+}
+h2 {
+    color: #676665;
+}
 .w-100-md {
     @include pad {
         width: 100%;
         border: 1px solid $ham-menu-border-primary;
     }
+}
+.w-100px {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 4px 16px;
 }
 .stron {
     height: 80px;
@@ -42,4 +53,14 @@ header {
 footer {
     z-index: 1;
     // 漢堡選單無法覆蓋在footer上，所以改父層的z-index，將header的z-index設定大於footer
+}
+.btn {
+    font-size: 24px;
+    font-weight: 700;
+}
+.pt-80 {
+    padding-top: 80px;
+}
+.pb-120 {
+    padding-bottom: 120px;
 }
