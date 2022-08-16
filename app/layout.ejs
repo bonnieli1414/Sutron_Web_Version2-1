@@ -15,7 +15,7 @@
 <body>
   <header class="bg-primary">
     <div class="container d-flex justify-content-between align-items-center">
-        <a href="./index.html"><img class="logo py-4" src="./assets/images/Logo-SM-W.png" alt="InGo Logo"></a>
+        <a href="./index.html" title="InGo"><img class="py-4" src="./assets/images/Logo-SM-W.png" alt="InGo Logo"></a>
         <input id="nav-toggle" class="ham-toggle d-none" type="checkbox">
         <label for="nav-toggle" class="ham-menu">
           <div class="ham-frame">
@@ -26,16 +26,16 @@
         </label>
         <nav class="header-nav">
             <ul class="list-menu d-flex justify-content-between align-items-center bg-primary">
-              <li class="list-menu-item w-100 py-1">
-                <a class="list-menu-item-link" href="./about.html"><h5>關於我們</h5></a>
+              <li class="list-menu-item w-100-md">
+                <a class="list-menu-item-link px-4 py-6" href="./about.html"><h5>關於我們</h5></a>
                 <ul class="list-menu-child d-none">
                   <li><a href="./index.html">首頁</a></li>
                   <li><a href="./about.html">關於我們</a></li>
                   <li><a href="./news.html">最新消息</a></li>
                 </ul>
               </li>
-              <li class="list-menu-item w-100 py-1">
-                <a class="list-menu-item-link" href="./product-IoT.html"><h5>InGo產品介紹</h5></a>
+              <li class="list-menu-item w-100-md">
+                <a class="list-menu-item-link px-4 py-6" href="./product-IoT.html"><h5>InGo產品介紹</h5></a>
                 <ul class="list-menu-child d-none">
                   <li><a href="./product-IoT.html">InGo物聯網</a></li>
                   <li><a href="./product-robot.html">InGo機械手臂</a></li>
@@ -44,21 +44,21 @@
                   <li><a href="./product-PLC.html">InGo_PLC</a></li>
                 </ul>
               </li>
-              <li class="list-menu-item w-100 py-1">
-                <a class="list-menu-item-link" href="#"><h5>InGo手冊</h5></a>
+              <li class="list-menu-item w-100-md">
+                <a class="list-menu-item-link px-4 py-6" href="#"><h5>InGo手冊</h5></a>
                 <ul class="list-menu-child d-none">
                   <li><a href="#">InGo手冊</a></li>
                 </ul>
               </li>
-              <li class="list-menu-item w-100 py-1">
-                <a class="list-menu-item-link" href="./contact.html"><h5>聯繫我們</h5></a>
+              <li class="list-menu-item w-100-md">
+                <a class="list-menu-item-link px-4 py-6" href="./contact.html"><h5>聯繫我們</h5></a>
                 <ul class="list-menu-child d-none">
                   <li><a href="./contact.html">聯絡資訊</a></li>
                   <li><a href="./messageBoard.html">留言板</a></li>
                 </ul>
               </li>
-              <li class="list-menu-item w-100 py-1">
-                <a class="list-menu-item-link" href="./member-login.html"><h5>程式積木</h5></a>
+              <li class="list-menu-item w-100-md">
+                <a class="list-menu-item-link px-4 py-6" href="./member-login.html"><h5>程式積木</h5></a>
                 <ul class="list-menu-child d-none">
                   <li><a href="./member-login.html">會員登入</a></li>
                   <li><a href="./member-register.html">會員註冊</a></li>
@@ -71,10 +71,95 @@
     </div>
   </header>
 
-
   <%- contents %>
 
-  <footer class="footer">
+  <footer class="bg-primary py-15">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="box-primary d-flex flex-column gap-8">
+            <div class="stron"></div>
+            <div class="d-flex flex-column justify-content-between align-items-center gap-8">
+              <p class="text-light text-center">Copyright © 2022 Sutron.All rights reserved.</p>
+              <ul class="d-flex flex-column ">
+                <li>
+                  <a class="d-flex align-items-center py-4 gap-1" href="tel:+886-917-693-204">
+                    <p class="img-contact img-contact-phone"></p>
+                    <span>James</span>0917-693-204
+                  </a>
+                </li>
+                <li>
+                  <a class="d-flex align-items-center py-4 gap-1" href="mailto:james.cheng@su-tron.com">
+                    <p class="img-contact img-contact-mail"></p>
+                    <span>james.cheng@su-tron.com</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-7 mx-auto col-md-8">
+          <div class="box-secondary d-flex flex-wrap px-8 gap-7">
+            <ul class="px-2 py-4">
+              <li>
+                <h6>
+                  <a href="./about.html">關於我們</a>
+                </h6>
+                
+                <ul class="py-3">
+                  <li><a class="py-1"href="./index.html">首頁</a></li>
+                  <li><a class="py-1"href="./about.html">關於我們</a></li>
+                  <li><a class="py-1"href="./news.html">最新消息</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="px-2 py-4">
+              <li>
+                <h6><a href="./product-IoT.html">InGo產品介紹</a></h6>
+                <ul class="py-3">
+                  <li><a class="py-1"href="./product-IoT.html">InGo物聯網</a></li>
+                  <li><a class="py-1"href="./product-robot.html">InGo機械手臂</a></li>
+                  <li><a class="py-1"href="./product-camera.html">InGo工業相機</a></li>
+                  <li><a class="py-1"href="./product-servoMotor.html">InGo伺服馬達</a></li>
+                  <li><a class="py-1"href="./product-PLC.html">InGo<span> PLC</span></a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="px-2 py-4">
+              <li>
+                <h6><a href="">教學手冊</a></h6>
+                <ul class="py-3">
+                  <li><a class="py-1"href="#">InGo手冊</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="px-2 py-4">
+              <li>
+                <h6><a href="./contact.html">聯繫我們</a></h6>
+                <ul class="py-3">
+                  <li><a class="py-1"href="./contact.html">聯絡資訊</a></li>
+                  <li><a class="py-1"href="./messageBoard.html">留言板</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="px-2 py-4">
+              <li>
+                <h6><a href="./member-login.html">程式積木</a></h6>
+                <ul class="py-3">
+                  <li><a class="py-1"href="./member-login.html">會員登入</a></li>
+                  <li><a class="py-1"href="./member-register.html">會員註冊</a></li>
+                  <li><a class="py-1"href="./member-getPassword.html">忘記密碼</a></li>
+                  <li><a class="py-1"href="./member-changePassword.html">修改密碼</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      
+
+    </div>
   </footer>
 
   <script src="./assets/js/vendors.js"></script>
