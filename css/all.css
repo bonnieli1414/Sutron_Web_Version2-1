@@ -13585,10 +13585,19 @@ h2, .h2 {
   }
 }
 
-.w-100px {
+.pill {
   font-size: 24px;
   font-weight: 700;
+  width: 140px;
   padding: 4px 16px;
+}
+@media screen and (max-width: 767px) {
+  .pill {
+    font-size: 18px;
+    font-weight: 700;
+    width: 120px;
+    padding: 4px 12px;
+  }
 }
 
 .stron {
