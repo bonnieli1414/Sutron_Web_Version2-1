@@ -1,15 +1,47 @@
-.cirle {
+.arc {
     position: relative;
     width: 100%;
-    height: 637px;
-    overflow: hidden;
-}
-.cirle-bg {
-    position: absolute;
-    left: -25%;
-    width: 150%;
-    height: 637px;
     background-color: #fff;
-    border-bottom-left-radius: 100%;
-    border-bottom-right-radius: 100%;
+}
+.arc:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+//   bottom: -100px;
+//   z-index: -1;
+  content: ' ';
+  height: 120px;
+  width: 100%;
+  border-radius: 0 0 50% 50%;
+  background-color: #fff;
+  @include pad {
+      height: 80px;
+  }
+  @include mobile {
+      height: 40px;
+  }
+}
+.pt-80 {
+    padding-top: 80px;
+}
+.pb-120 {
+    padding-bottom: 120px;
+}
+.pt-240 {
+    padding-top: 240px;
+    @include pad {
+        padding-top: 160px;
+    }
+    @include mobile {
+        padding-top: 80px;
+    }
+}
+.pb-140 {
+    padding-bottom: 140px;
+    @include pad {
+        padding-bottom: 100px;
+    }
+    @include mobile {
+        padding-bottom: 60px;
+    }
 }
