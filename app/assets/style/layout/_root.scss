@@ -14,20 +14,7 @@ footer {
     z-index: 1;
     // 漢堡選單無法覆蓋在footer上，所以改父層的z-index，將header的z-index設定大於footer
 }
-.pill {
-    font-size: 24px;
-    font-weight: 700;
-    width: 140px;
-    padding: 4px 16px;
-    @include mobile {
-        font-size: 18px;
-        font-weight: 700;
-        width: 120px;
-        padding: 4px 12px;
-    }
-}
 .btn {
     font-size: 24px;
     font-weight: 700;
 }
-
