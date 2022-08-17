@@ -68,17 +68,17 @@
     .list-menu {
         display: block;
         flex-direction: column;
-        .list-menu-item-link {
+    }
+    .list-menu-item {
+        @include pad {
             width: 100%;
-            padding: 12px 0;
+            border: 1px solid $ham-menu-border-primary;
         }
     }
-    // header .container .list-menu {
-    //     gap: 0px;
-    // }
-    // .list-menu-item {
-    //     border: 1px solid $ham-menu-border-primary;
-    // }
+    .list-menu-item-link {
+        width: 100%;
+        padding: 12px 0;
+    }
 }
 // 響應式手機或pad版時引入ham-menu
 @media screen and (max-width: $pad-width) {
