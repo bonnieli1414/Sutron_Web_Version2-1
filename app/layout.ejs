@@ -27,44 +27,92 @@
         <nav class="header-nav">
             <ul class="list-menu d-flex justify-content-between align-items-center bg-primary">
               <li class="list-menu-item">
-                <a class="list-menu-item-link px-4 py-6" href="./about.html"><h6>關於我們</h6></a>
-                <ul class="list-menu-child d-none">
+                <!-- lg-hover父層選單 -->
+                <a class="list-menu-item-link px-4 py-6 d-none d-lg-block" href="./about.html"><h6>關於我們</h6></a>
+                <!-- sm和md-摺疊的父層選單 -->
+                <a class="list-menu-item-link px-4 py-6 d-lg-none" data-bs-toggle="collapse" href="#collapse-about" role="button" aria-expanded="false" aria-controls="collapse-about"><h6>關於我們</h6></a>
+                <!-- lg-hover的子層選單 -->
+                <ul class="list-menu-child">
                   <li><a href="./index.html">首頁</a></li>
                   <li><a href="./about.html">關於我們</a></li>
-                  <li><a href="./news.html">最新消息</a></li>
+                  <li class="rounded-bottom"><a href="./news.html">最新消息</a></li>
                 </ul>
+                <!-- sm和md-摺疊的子層選單 -->
+                <div class="collapse d-lg-none" id="collapse-about">
+                  <ul class="card card-body list-menu-child-toggle">
+                    <li><a href="./index.html">首頁</a></li>
+                    <li><a href="./about.html">關於我們</a></li>
+                    <li class="rounded-bottom"><a href="./news.html">最新消息</a></li>
+                  </ul>
+                </div>
               </li>
               <li class="list-menu-item">
-                <a class="list-menu-item-link px-4 py-6" href="./product-IoT.html"><h6>InGo產品介紹</h6></a>
-                <ul class="list-menu-child d-none">
+                <!-- lg-hover父層選單 -->
+                <a class="list-menu-item-link px-4 py-6 d-none d-lg-block" href="./product-IoT.html"><h6>InGo產品介紹</h6></a>
+                <!-- sm和md-摺疊的父層選單 -->
+                <a class="list-menu-item-link px-4 py-6 d-lg-none" data-bs-toggle="collapse" href="#collapse-product" role="button" aria-expanded="false" aria-controls="collapse-product"><h6>InGo產品介紹</h6></a>
+                <!-- lg-hover的子層選單 -->
+                <ul class="list-menu-child">
                   <li><a href="./product-IoT.html">InGo物聯網</a></li>
                   <li><a href="./product-robot.html">InGo機械手臂</a></li>
                   <li><a href="./product-camera.html">InGo工業相機</a></li>
                   <li><a href="./product-servoMotor.html">InGo伺服馬達</a></li>
-                  <li><a href="./product-PLC.html">InGo_PLC</a></li>
+                  <li class="rounded-bottom"><a href="./product-PLC.html">InGo_PLC</a></li>
                 </ul>
+                <!-- sm和md-摺疊的子層選單 -->
+                <div class="collapse d-lg-none" id="collapse-product">
+                  <ul class="card card-body list-menu-child-toggle">
+                    <li><a href="./product-IoT.html">InGo物聯網</a></li>
+                    <li><a href="./product-robot.html">InGo機械手臂</a></li>
+                    <li><a href="./product-camera.html">InGo工業相機</a></li>
+                    <li><a href="./product-servoMotor.html">InGo伺服馬達</a></li>
+                  </ul>
+                </div>
               </li>
               <li class="list-menu-item">
                 <a class="list-menu-item-link px-4 py-6" href="#"><h6>InGo手冊</h6></a>
-                <ul class="list-menu-child d-none">
-                  <li><a href="#">InGo手冊</a></li>
+                <ul class="list-menu-child">
+                  <li class="rounded-bottom"><a href="#">InGo手冊</a></li>
                 </ul>
               </li>
               <li class="list-menu-item">
-                <a class="list-menu-item-link px-4 py-6" href="./contact.html"><h6>聯繫我們</h6></a>
-                <ul class="list-menu-child d-none">
+                <!-- lg-hover父層選單 -->
+                <a class="list-menu-item-link px-4 py-6 d-none d-lg-block" href="./contact.html"><h6>聯繫我們</h6></a>
+                <!-- sm和md-摺疊的父層選單 -->
+                <a class="list-menu-item-link px-4 py-6 d-lg-none" data-bs-toggle="collapse" href="#collapse-contact" role="button" aria-expanded="false" aria-controls="collapse-contact"><h6>聯繫我們</h6></a>
+                <!-- lg-hover的子層選單 -->
+                <ul class="list-menu-child">
                   <li><a href="./contact.html">聯絡資訊</a></li>
-                  <li><a href="./messageBoard.html">留言板</a></li>
+                  <li class="rounded-bottom"><a href="./messageBoard.html">留言板</a></li>
                 </ul>
+                <!-- sm和md-摺疊的子層選單 -->
+                <div class="collapse d-lg-none" id="collapse-contact">
+                  <ul class="card card-body list-menu-child-toggle">
+                    <li><a href="./contact.html">聯絡資訊</a></li>
+                  <li class="rounded-bottom"><a href="./messageBoard.html">留言板</a></li>
+                  </ul>
+                </div>
               </li>
               <li class="list-menu-item">
-                <a class="list-menu-item-link px-4 py-6" href="./member-login.html"><h6>程式積木</h6></a>
-                <ul class="list-menu-child d-none">
+                <!-- lg-hover父層選單 -->
+                <a class="list-menu-item-link px-4 py-6 d-none d-lg-block" href="./member-login.html"><h6>程式積木</h6></a>
+                <!-- sm和md-摺疊的父層選單 -->
+                <a class="list-menu-item-link px-4 py-6 d-lg-none" data-bs-toggle="collapse" href="#collapse-member" role="button" aria-expanded="false" aria-controls="collapse-member"><h6>程式積木</h6></a>
+                <!-- lg-hover的子層選單 -->
+                <ul class="list-menu-child">
                   <li><a href="./member-login.html">會員登入</a></li>
                   <li><a href="./member-register.html">會員註冊</a></li>
                   <li><a href="./member-getPassword.html">忘記密碼</a></li>
-                  <li><a href="./member-changePassword.html">修改密碼</a></li>
+                  <li class="rounded-bottom"><a href="./member-changePassword.html">修改密碼</a></li>
                 </ul>
+                <!-- sm和md-摺疊的子層選單 -->
+                <div class="collapse d-lg-none" id="collapse-member">
+                  <ul class="card card-body list-menu-child-toggle">
+                    <li><a href="./index.html">首頁</a></li>
+                    <li><a href="./about.html">關於我們</a></li>
+                    <li class="rounded-bottom"><a href="./news.html">最新消息</a></li>
+                  </ul>
+                </div>
               </li>
             </ul>
         </nav>
