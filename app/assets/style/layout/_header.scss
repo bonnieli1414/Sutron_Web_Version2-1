@@ -27,9 +27,14 @@ header {
     .list-menu-child-toggle {
         background-color: $nav-menu-child-bg-primary;
         padding: 10px;
+        border: unset;
         a {
             width: 100%;
-            padding: 20px;
+            padding: 10px;
+        }
+        a:hover {
+            background-color: #3D8BA0;
+            border: 1px solid #fff;
         }
     }
 }
