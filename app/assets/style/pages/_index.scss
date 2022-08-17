@@ -1,0 +1,15 @@
+.cirle {
+    position: relative;
+    width: 100%;
+    height: 637px;
+    overflow: hidden;
+}
+.cirle-bg {
+    position: absolute;
+    left: -25%;
+    width: 150%;
+    height: 637px;
+    background-color: #fff;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
