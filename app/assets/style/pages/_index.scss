@@ -172,3 +172,44 @@ section .pill {
 .gap-28 {
     gap: 28px 0px;
 }
+.card-img {
+    width: 200px;
+    height: 180px;
+}
+.px-72 {
+    padding-left: 72px;
+    padding-right: 72px;
+}
+.py-76 {
+    padding-top: 76px;
+    padding-bottom: 76px;
+}
+.py-120 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    @include pad {
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
+    @include mobile {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+}
+.pb-80 {
+    padding-bottom: 80px;
+}
+.h-488 {
+    position: relative;
+    height: 488px;
+}
+.card-head {
+    height: 288px;
+    width: 100%;
+}
+.card-body {
+    position:absolute;
+    top: 288px;
+    bottom: 0px;
+    width: 100%;
+}

@@ -13660,6 +13660,10 @@ h2, .h2 {
   color: #676665;
 }
 
+.bg-color-fourth {
+  background-color: #ECEDED;
+}
+
 h1, .h1 {
   font-weight: 700;
   font-size: 56px;
@@ -13762,8 +13766,25 @@ h6, .h6 {
     line-height: 24px;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 767px) {
   h6, .h6 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.h6 {
+  font-size: 20px;
+  line-height: 28px;
+}
+@media screen and (max-width: 992px) {
+  .h6 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .h6 {
     font-size: 16px;
     line-height: 20px;
   }
@@ -14013,4 +14034,57 @@ section .pill {
 
 .gap-28 {
   gap: 28px 0px;
+}
+
+.card-img {
+  width: 200px;
+  height: 180px;
+}
+
+.px-72 {
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+.py-76 {
+  padding-top: 76px;
+  padding-bottom: 76px;
+}
+
+.py-120 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+@media screen and (max-width: 992px) {
+  .py-120 {
+    padding-top: 80px;
+    padding-bottom: 90px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .py-120 {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.h-488 {
+  position: relative;
+  height: 488px;
+}
+
+.card-head {
+  height: 288px;
+  width: 100%;
+}
+
+.card-body {
+  position: absolute;
+  top: 288px;
+  bottom: 0px;
+  width: 100%;
 }/*# sourceMappingURL=all.css.map */
