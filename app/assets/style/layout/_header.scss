@@ -48,9 +48,16 @@ header {
     .accordion-button::after {
         margin: 0 40%;
         background-color: $ham-icon-child-bg-primary;
+        @include mobile {
+            margin: 0 32%;            
+        }
     }
     .middle {
-        top: 33%;
+        top: 28%;
         left: 46%;
+        @include mobile {
+            top: 31%;
+            left: 40%;           
+        }
     }
 }
