@@ -107,3 +107,12 @@ footer {
     z-index: 1;
     // 漢堡選單無法覆蓋在footer上，所以改父層的z-index，將header的z-index設定大於footer
 }
+.z-index-1 {
+    z-index: 1;
+}
+.z-index-2 {
+    z-index: 2;
+}
+.z-index-3 {
+    z-index: 3;
+}

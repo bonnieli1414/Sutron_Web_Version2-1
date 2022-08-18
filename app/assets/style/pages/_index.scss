@@ -1,215 +1,209 @@
-.pill {
-    width: 140px;
-    padding: 4px 16px;
-    @include mobile {
-        width: 100px;
-        padding: 4px 12px;
-        margin-top: 36px;
+.index {
+    .arc {
+        position: relative;
+        width: 100%;
+        background-color: #fff;
     }
-}
-section .pill {
-    cursor: auto;
-}
-.arc {
-    position: relative;
-    width: 100%;
-    background-color: #fff;
-}
-.arc:after {
-  position: absolute;
-  left: 0;
-  right: 0;
-//   bottom: -100px;
-  z-index: 2;
-  content: ' ';
-  height: 120px;
-  width: 100%;
-  border-radius: 0 0 50% 50%;
-  background-color: #fff;
-  @include pad {
-      height: 80px;
-  }
-  @include mobile {
-    height: 90px;
-    bottom: -50px;
-    border-radius: 0 0 50% 50%;
-    
-  }
-}
-.pt-80 {
-    padding-top: 80px;
-    @include pad {
-        padding-top: 60px;
+    .arc:after {
+      position: absolute;
+      left: 0;
+      right: 0;
+    //   bottom: -100px;
+      z-index: 2;
+      content: ' ';
+      height: 120px;
+      width: 100%;
+      border-radius: 0 0 50% 50%;
+      background-color: #fff;
+      @include mobile {
+        height: 90px;
+        bottom: -60px;
+        border-radius: 0 0 50% 50%;
+        
+      }
     }
-    @include mobile {
-        padding-top: 40px;
+    .pill {
+        width: 140px;
+        padding: 4px 16px;
+        @include mobile {
+            width: 100px;
+            padding: 4px 12px;
+            margin-top: 36px;
+        }
     }
-}
-.pt-240 {
-    padding-top: 240px;
-    @include pad {
-        padding-top: 160px;
+    section .pill {
+        cursor: auto;
     }
-    @include mobile {
-        padding-top: 80px;
+    .btn-about {
+        width: 224px;
+        height: 60px;
+        border-radius: 10px;
+        margin-top: 70px;
+        @include pad {
+            width: 180px;
+            height: 50px;
+            margin-top: 50px;
+            margin-bottom: 60px;
+        }
+        @include mobile {
+            height: 40px;
+            width: 168px;
+            margin-top: 0px;
+            position: absolute;
+            left: 34%;
+            bottom: -1200%;
+        }
     }
-}
-.pb-140 {
-    padding-bottom: 140px;
-    @include pad {
-        padding-bottom: 100px;
+    .w-45 {
+        width: 45%;
     }
-    @include mobile {
-        padding-bottom: 120px;
+    .w-76 {
+        width: 76px;
+        height: 76px;
+        @include mobile {
+            width: 40px;
+            height: 40px;
+        }
     }
-}
-.btn-about {
-    width: 224px;
-    height: 60px;
-    border-radius: 10px;
-    margin-top: 70px;
-    @include pad {
-        width: 180px;
-        height: 50px;
-        margin-top: 50px;
-        margin-bottom: 60px;
+    .w-316 {
+        width: 316px;
+        @include pad {
+            width: 252px;
+        }
     }
-    @include mobile {
-        height: 40px;
-        width: 168px;
-        margin-top: 0px;
+    .circle-group1 {
         position: absolute;
-        left: 34%;
-        bottom: -1200%;
+        z-index: 1;
+        right: 5%;
+        bottom: -50%;
+        @include pad {
+            bottom: -70%;
+        }
+        @include mobile {
+            bottom: -40%;
+        }
     }
-}
-.w-76 {
-    width: 76px;
-    height: 76px;
-    @include mobile {
-        width: 40px;
-        height: 40px;
+    .circle-2 {
+        padding-bottom: 80px;
     }
-}
-.w-45 {
-    width: 45%;
-}
-.w-316 {
-    width: 316px;
-    @include pad {
-        width: 252px;
+    .circle-3 {
+        position: absolute;
+        top: -30px;
+        right: 5%;
+        z-index: 1;
     }
-}
-.py-34 {
-    padding-top: 34px;
-    padding-bottom: 34px;
-    @include pad {
-        padding-top: 28px;
-        padding-bottom: 28px;
+    .circle-group2 {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        z-index: 1;
+        @include pad {
+            top: 12%;
+            left: -20%;
+        }
+        @include mobile {
+            top: 50%;
+            left: -5%;
+        }
     }
-    @include mobile {
-        padding-top: 14px;
-        padding-bottom: 14px;
+    .circle-4 {
+        position: relative;
+        z-index: 1;
     }
-}
-.circle-group1 {
-    position: absolute;
-    z-index: 1;
-    right: 5%;
-    bottom: -50%;
-    @include pad {
-        bottom: -70%;
+    .card {
+        position: relative;
+        height: 488px;
+        box-shadow: 0px 4px #0000002e;
+        border-radius: 12px;
+        @include mobile {
+            width: 70%;
+            height: 418px;
+            margin: 0 auto;
+            margin-bottom: 24px;
+        }
     }
-    @include mobile {
-        bottom: -40%;
-    }
-}
-.circle-2 {
-    padding-bottom: 80px;
-}
-.circle-3 {
-    position: absolute;
-    top: -30px;
-    right: 5%;
-    z-index: 1;
-}
-.circle-group2 {
-    position: absolute;
-    top: 20%;
-    left: 5%;
-    z-index: 1;
-    @include pad {
-        top: 12%;
-        left: -20%;
-    }
-    @include mobile {
-        top: 50%;
-        left: -5%;
-    }
-}
-.circle-4 {
-    position: relative;
-    z-index: 1;
-}
-.z-index-1 {
-    z-index: 1;
-}
-.z-index-2 {
-    z-index: 2;
-}
-.z-index-3 {
-    z-index: 3;
-}
-.z-index-4 {
-    z-index: 4;
-}
-.pr-84 {
-    padding-right: 84px;
-    @include mobile {
-        padding-right: 0px;
-    }
-}
-.gap-28 {
-    gap: 28px 0px;
-}
-.card-img {
-    width: 200px;
-    height: 180px;
-}
-.px-72 {
-    padding-left: 72px;
-    padding-right: 72px;
-}
-.py-76 {
-    padding-top: 76px;
-    padding-bottom: 76px;
-}
-.py-120 {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    @include pad {
-        padding-top: 80px;
-        padding-bottom: 90px;
-    }
-    @include mobile {
+    .card-head {
+        width: 100%;
+        height: 288px;
         padding-top: 40px;
-        padding-bottom: 60px;
     }
-}
-.pb-80 {
-    padding-bottom: 80px;
-}
-.h-488 {
-    position: relative;
-    height: 488px;
-}
-.card-head {
-    height: 288px;
-    width: 100%;
-}
-.card-body {
-    position:absolute;
-    top: 288px;
-    bottom: 0px;
-    width: 100%;
+    .card-body {
+        position:absolute;
+        top: 288px;
+        bottom: 0px;
+        width: 100%;
+        padding: 32px 24px;
+        @include pad {
+            padding: 16px 24px;
+        }
+    }
+    .card-img {
+        width: 200px;
+        height: 180px;
+    }
+    .gap-28 {
+        gap: 28px 0px;
+    }
+    .pr-84 {
+        padding-right: 84px;
+        @include mobile {
+            padding-right: 0px;
+        }
+    }
+    .pt-80 {
+        padding-top: 80px;
+        @include pad {
+            padding-top: 60px;
+        }
+        @include mobile {
+            padding-top: 40px;
+        }
+    }
+    .pt-240 {
+        padding-top: 240px;
+        @include pad {
+            padding-top: 160px;
+        }
+        @include mobile {
+            padding-top: 130px;
+        }
+    }
+    .pb-80 {
+        padding-bottom: 80px;
+    }
+    .pb-140 {
+        padding-bottom: 140px;
+        @include pad {
+            padding-bottom: 100px;
+        }
+        @include mobile {
+            padding-bottom: 120px;
+        }
+    }
+    .py-34 {
+        padding-top: 34px;
+        padding-bottom: 34px;
+        @include pad {
+            padding-top: 28px;
+            padding-bottom: 28px;
+        }
+        @include mobile {
+            padding-top: 14px;
+            padding-bottom: 14px;
+        }
+    }
+    .py-120 {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        @include pad {
+            padding-top: 80px;
+            padding-bottom: 90px;
+        }
+        @include mobile {
+            padding-top: 40px;
+            padding-bottom: 60px;
+        }
+    }
+
+
 }
