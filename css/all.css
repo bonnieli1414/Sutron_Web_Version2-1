@@ -13661,6 +13661,7 @@ h2, .h2 {
 }
 
 h1, .h1 {
+  font-weight: 700;
   font-size: 56px;
   line-height: 72px;
 }
@@ -13678,6 +13679,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
+  font-weight: 700;
   font-size: 48px;
   line-height: 62px;
 }
@@ -13695,6 +13697,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
+  font-weight: 700;
   font-size: 40px;
   line-height: 52px;
 }
@@ -13712,6 +13715,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
+  font-weight: 700;
   font-size: 28px;
   line-height: 36px;
 }
@@ -13723,12 +13727,14 @@ h4, .h4 {
 }
 @media screen and (max-width: 767px) {
   h4, .h4 {
+    font-weight: 700;
     font-size: 16px;
     line-height: 20px;
   }
 }
 
 h5, .h5 {
+  font-weight: 700;
   font-size: 24px;
   line-height: 32px;
 }
@@ -13746,6 +13752,7 @@ h5, .h5 {
 }
 
 h6, .h6 {
+  font-weight: 700;
   font-size: 20px;
   line-height: 28px;
 }
@@ -13766,7 +13773,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 9;
 }
 
 footer {
@@ -13799,7 +13806,7 @@ section .pill {
   position: absolute;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: 2;
   content: " ";
   height: 120px;
   width: 100%;
@@ -13813,7 +13820,9 @@ section .pill {
 }
 @media screen and (max-width: 767px) {
   .arc:after {
-    height: 40px;
+    height: 90px;
+    bottom: -50px;
+    border-radius: 0 0 50% 50%;
   }
 }
 
@@ -13880,7 +13889,7 @@ section .pill {
     margin-top: 0px;
     position: absolute;
     left: 34%;
-    bottom: -900%;
+    bottom: -1200%;
   }
 }
 
@@ -13923,4 +13932,85 @@ section .pill {
     padding-top: 14px;
     padding-bottom: 14px;
   }
+}
+
+.circle-group1 {
+  position: absolute;
+  z-index: 1;
+  right: 5%;
+  bottom: -50%;
+}
+@media screen and (max-width: 992px) {
+  .circle-group1 {
+    bottom: -70%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .circle-group1 {
+    bottom: -40%;
+  }
+}
+
+.circle-2 {
+  padding-bottom: 80px;
+}
+
+.circle-3 {
+  position: absolute;
+  top: -30px;
+  right: 5%;
+  z-index: 1;
+}
+
+.circle-group2 {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  z-index: 1;
+}
+@media screen and (max-width: 992px) {
+  .circle-group2 {
+    top: 12%;
+    left: -20%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .circle-group2 {
+    top: 50%;
+    left: -5%;
+  }
+}
+
+.circle-4 {
+  position: relative;
+  z-index: 1;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+.z-index-3 {
+  z-index: 3;
+}
+
+.z-index-4 {
+  z-index: 4;
+}
+
+.pr-84 {
+  padding-right: 84px;
+}
+@media screen and (max-width: 767px) {
+  .pr-84 {
+    padding-right: 0px;
+  }
+}
+
+.gap-28 {
+  gap: 28px 0px;
 }/*# sourceMappingURL=all.css.map */

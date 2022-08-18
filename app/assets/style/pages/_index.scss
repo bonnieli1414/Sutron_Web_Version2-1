@@ -20,7 +20,7 @@ section .pill {
   left: 0;
   right: 0;
 //   bottom: -100px;
-  z-index: 1;
+  z-index: 2;
   content: ' ';
   height: 120px;
   width: 100%;
@@ -30,7 +30,10 @@ section .pill {
       height: 80px;
   }
   @include mobile {
-      height: 40px;
+    height: 90px;
+    bottom: -50px;
+    border-radius: 0 0 50% 50%;
+    
   }
 }
 .pt-80 {
@@ -60,7 +63,6 @@ section .pill {
         padding-bottom: 120px;
     }
 }
-
 .btn-about {
     width: 224px;
     height: 60px;
@@ -78,7 +80,7 @@ section .pill {
         margin-top: 0px;
         position: absolute;
         left: 34%;
-        bottom: -900%;
+        bottom: -1200%;
     }
 }
 .w-76 {
@@ -109,4 +111,64 @@ section .pill {
         padding-top: 14px;
         padding-bottom: 14px;
     }
+}
+.circle-group1 {
+    position: absolute;
+    z-index: 1;
+    right: 5%;
+    bottom: -50%;
+    @include pad {
+        bottom: -70%;
+    }
+    @include mobile {
+        bottom: -40%;
+    }
+}
+.circle-2 {
+    padding-bottom: 80px;
+}
+.circle-3 {
+    position: absolute;
+    top: -30px;
+    right: 5%;
+    z-index: 1;
+}
+.circle-group2 {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    z-index: 1;
+    @include pad {
+        top: 12%;
+        left: -20%;
+    }
+    @include mobile {
+        top: 50%;
+        left: -5%;
+    }
+}
+.circle-4 {
+    position: relative;
+    z-index: 1;
+}
+.z-index-1 {
+    z-index: 1;
+}
+.z-index-2 {
+    z-index: 2;
+}
+.z-index-3 {
+    z-index: 3;
+}
+.z-index-4 {
+    z-index: 4;
+}
+.pr-84 {
+    padding-right: 84px;
+    @include mobile {
+        padding-right: 0px;
+    }
+}
+.gap-28 {
+    gap: 28px 0px;
 }
