@@ -13621,6 +13621,9 @@ header .accordion-item {
   background-color: #3D8BA0;
   border: 1px solid #3D8BA0;
 }
+header .accordion-button:hover {
+  opacity: 0.8;
+}
 header .accordion-button::after {
   margin: 0 40%;
   background-color: #F5F5F5;

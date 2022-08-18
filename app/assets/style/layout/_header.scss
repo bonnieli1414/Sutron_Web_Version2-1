@@ -42,11 +42,13 @@ header {
         background-color: #3D8BA0;
         border: 1px solid #3D8BA0;
     }
+    .accordion-button:hover {
+        opacity: 0.8;
+    }
     .accordion-button::after {
         margin: 0 40%;
         background-color: $ham-icon-child-bg-primary;
     }
-    
     .middle {
         top: 27%;
         left: 46%;
