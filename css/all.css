@@ -13507,10 +13507,11 @@ textarea.form-control-lg {
   }
   .header-nav {
     width: 100%;
+    text-align: center;
     background-color: #fff;
     position: absolute;
     z-index: 9999;
-    top: 63px;
+    top: 62px;
     left: 0%;
     transform: translateY(-200%);
     transition: transform 0.5s;
@@ -13626,7 +13627,7 @@ header .accordion-button::after {
 }
 header .middle {
   top: 27%;
-  left: 45%;
+  left: 46%;
 }
 
 footer .stron {

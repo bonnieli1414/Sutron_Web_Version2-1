@@ -51,11 +51,11 @@
     }
     .header-nav {
         width: 100%;
-        // text-align: center;
+        text-align: center;
         background-color: $ham-icon-bg-primary;
         position: absolute;
         z-index: 9999;
-        top: 63px;
+        top: 62px;
         left: 0%;
         // left: -100%; //也可藏在左邊，不用動畫
         transform: translateY(-200%);
