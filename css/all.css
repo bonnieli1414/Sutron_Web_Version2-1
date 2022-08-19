@@ -13754,13 +13754,6 @@ h4, .h4 {
     line-height: 32px;
   }
 }
-@media screen and (max-width: 767px) {
-  h4, .h4 {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-  }
-}
 
 h5, .h5 {
   font-weight: 700;
@@ -13896,7 +13889,7 @@ footer {
     margin-top: 0px;
     position: absolute;
     left: 34%;
-    bottom: -1200%;
+    bottom: -1450%;
   }
 }
 .index .w-45 {
@@ -14085,5 +14078,100 @@ footer {
   .index .py-120 {
     padding-top: 40px;
     padding-bottom: 60px;
+  }
+}
+.index .box {
+  background: rgba(255, 255, 255, 0.1098039216);
+  width: 578px;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding: 32px;
+  margin-top: 48px;
+}
+@media screen and (max-width: 767px) {
+  .index .box {
+    width: 327px;
+    margin: 0 auto;
+    padding: 16px;
+    margin-top: 28px;
+  }
+}
+.index .py-80 {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+@media screen and (max-width: 767px) {
+  .index .py-80 {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+}
+.index .circle-6 {
+  width: 100px;
+  height: 134px;
+  top: 450%;
+  right: 0%;
+  background-image: url("../../../assets/images/Background-Gray2.png");
+  background-repeat: repeat-y;
+}
+@media screen and (max-width: 992px) {
+  .index .circle-6 {
+    top: 310%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .index .circle-6 {
+    background-size: contain;
+    width: 60px;
+    height: 80px;
+    top: 265%;
+    right: 25%;
+  }
+}
+.index .circle-7 {
+  width: 132px;
+  height: 62px;
+  top: 0;
+  right: 21%;
+  background-image: url("../../../assets/images/Background-Gray.png");
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 767px) {
+  .index .circle-7 {
+    background-image: url("../../../assets/images/Background-Gray2.png");
+    background-size: contain;
+    width: 60x;
+    height: 34px;
+    top: 70%;
+    right: 29%;
+  }
+}
+.index .circle-8 {
+  width: 132px;
+  height: 62px;
+  top: -45px;
+  left: -90px;
+  background-image: url("../../../assets/images/Background-Gray.png");
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 767px) {
+  .index .circle-8 {
+    background-image: url("../../../assets/images/Background-Gray2.png");
+    background-size: contain;
+    transform: rotate(90deg);
+    width: 62px;
+    height: 132px;
+    top: -175px;
+    left: -60px;
+  }
+}
+.index .circle-9 {
+  bottom: -25px;
+  left: -14px;
+}
+@media screen and (max-width: 767px) {
+  .index .circle-9 {
+    bottom: -35px;
+    left: -100px;
   }
 }/*# sourceMappingURL=all.css.map */
