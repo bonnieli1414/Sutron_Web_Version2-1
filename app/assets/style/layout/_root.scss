@@ -116,3 +116,15 @@ footer {
 .z-index-3 {
     z-index: 3;
 }
+.pb-80 {
+    padding-bottom: 80px;
+}
+.pb-140 {
+    padding-bottom: 140px;
+    @include pad {
+        padding-bottom: 100px;
+    }
+    @include mobile {
+        padding-bottom: 120px;
+    }
+}

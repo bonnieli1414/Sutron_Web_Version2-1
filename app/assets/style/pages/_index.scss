@@ -1,4 +1,4 @@
-.index {
+.page-index {
     .arc {
         position: relative;
         width: 100%;
@@ -168,18 +168,7 @@
             padding-top: 130px;
         }
     }
-    .pb-80 {
-        padding-bottom: 80px;
-    }
-    .pb-140 {
-        padding-bottom: 140px;
-        @include pad {
-            padding-bottom: 100px;
-        }
-        @include mobile {
-            padding-bottom: 120px;
-        }
-    }
+
     .py-34 {
         padding-top: 34px;
         padding-bottom: 34px;
@@ -231,7 +220,7 @@
         height: 134px;
         top: 450%;
         right: 0%;
-        background-image: url("../../../assets/images/Background-Gray2.png");
+        background-image: url("../../../assets/images/index/Background-Gray2.png");
         background-repeat: repeat-y;
         @include pad {
             top: 310%;
@@ -249,10 +238,10 @@
         height: 62px;
         top: 0;
         right: 21%;
-        background-image: url("../../../assets/images/Background-Gray.png");
+        background-image: url("../../../assets/images/index/Background-Gray.png");
         background-repeat: no-repeat;
         @include mobile {
-            background-image: url("../../../assets/images/Background-Gray2.png");
+            background-image: url("../../../assets/images/index/Background-Gray2.png");
             background-size: contain;
             width: 60x;
             height: 34px;
@@ -265,10 +254,10 @@
         height: 62px;
         top: -45px;
         left: -90px;
-        background-image: url("../../../assets/images/Background-Gray.png");
+        background-image: url("../../../assets/images/index/Background-Gray.png");
         background-repeat: no-repeat;
         @include mobile {
-            background-image: url("../../../assets/images/Background-Gray2.png");
+            background-image: url("../../../assets/images/index/Background-Gray2.png");
             background-size: contain;
             transform: rotate(90deg);
             width: 62px;
@@ -284,5 +273,22 @@
             bottom: -35px;
             left: -100px;
         }
+    }
+}
+
+.page-about {
+    .banner {
+        background-image: url("../../../assets/images/index/about1.jpg");
+        height: 300px;
+        padding-left: 10%;
+        @include banner;
+    }
+}
+.page-news {
+    .banner {
+        background-image: url("../../../assets/images/index/news1.jpg");
+        height: 300px;
+        padding-right: 10%;
+        @include banner;
     }
 }
