@@ -36,6 +36,7 @@ let envOptions = {
     outputStyle: 'expanded',
     includePaths: [
       `${nodePath}/bootstrap/scss`,
+      `${nodePath}/aos/dist/aos.css`, //aos套件
     ],
     path: `${distPath}/assets/style`,
   },
