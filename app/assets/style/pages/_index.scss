@@ -237,7 +237,7 @@
         width: 132px;
         height: 62px;
         top: 0;
-        right: 21%;
+        right: -70px;
         background-image: url("../../../assets/images/index/Background-Gray.png");
         background-repeat: no-repeat;
         @include mobile {
@@ -245,8 +245,8 @@
             background-size: contain;
             width: 60x;
             height: 34px;
-            top: 70%;
-            right: 29%;
+            top: 10px;
+            right: -100px;
         }
     }
     .circle-8 {
