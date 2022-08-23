@@ -14772,6 +14772,68 @@ footer {
   z-index: 3;
 }
 
+.w-45 {
+  width: 45%;
+}
+
+@media screen and (max-width: 767px) {
+  .w-sm-40 {
+    width: 40%;
+  }
+}
+
+.w-76 {
+  width: 76px;
+  height: 76px;
+}
+@media screen and (max-width: 767px) {
+  .w-76 {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.w-316 {
+  width: 316px;
+}
+@media screen and (max-width: 992px) {
+  .w-316 {
+    width: 252px;
+  }
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+@media screen and (max-width: 992px) {
+  .pt-80 {
+    padding-top: 60px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .pt-80 {
+    padding-top: 40px;
+  }
+}
+
+.pt-240 {
+  padding-top: 240px;
+}
+@media screen and (max-width: 992px) {
+  .pt-240 {
+    padding-top: 160px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .pt-240 {
+    padding-top: 130px;
+  }
+}
+
 .pb-80 {
   padding-bottom: 80px;
 }
@@ -14790,14 +14852,62 @@ footer {
   }
 }
 
+.py-34 {
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+@media screen and (max-width: 992px) {
+  .py-34 {
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+}
 @media screen and (max-width: 767px) {
-  .w-50-sm {
-    width: 40%;
+  .py-34 {
+    padding-top: 14px;
+    padding-bottom: 14px;
   }
 }
 
-.bold {
-  font-weight: 700;
+.py-80 {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+@media screen and (max-width: 767px) {
+  .py-80 {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+}
+
+.py-120 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+@media screen and (max-width: 992px) {
+  .py-120 {
+    padding-top: 80px;
+    padding-bottom: 90px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .py-120 {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+}
+
+.pr-84 {
+  padding-right: 84px;
+}
+@media screen and (max-width: 767px) {
+  .pr-84 {
+    padding-right: 0px;
+  }
+}
+
+.gap-28 {
+  gap: 28px 0px;
 }
 
 .page-index .arc {
@@ -14826,6 +14936,7 @@ footer {
 .page-index .pill {
   width: 140px;
   padding: 4px 16px;
+  cursor: auto;
 }
 @media screen and (max-width: 767px) {
   .page-index .pill {
@@ -14833,9 +14944,6 @@ footer {
     padding: 4px 12px;
     margin-top: 36px;
   }
-}
-.page-index section .pill {
-  cursor: auto;
 }
 .page-index .btn-about {
   width: 224px;
@@ -14859,27 +14967,6 @@ footer {
     position: absolute;
     left: 34%;
     bottom: -1450%;
-  }
-}
-.page-index .w-45 {
-  width: 45%;
-}
-.page-index .w-76 {
-  width: 76px;
-  height: 76px;
-}
-@media screen and (max-width: 767px) {
-  .page-index .w-76 {
-    width: 40px;
-    height: 40px;
-  }
-}
-.page-index .w-316 {
-  width: 316px;
-}
-@media screen and (max-width: 992px) {
-  .page-index .w-316 {
-    width: 252px;
   }
 }
 .page-index .circle-group1 {
@@ -14964,75 +15051,6 @@ footer {
   width: 200px;
   height: 180px;
 }
-.page-index .gap-28 {
-  gap: 28px 0px;
-}
-.page-index .pr-84 {
-  padding-right: 84px;
-}
-@media screen and (max-width: 767px) {
-  .page-index .pr-84 {
-    padding-right: 0px;
-  }
-}
-.page-index .pt-80 {
-  padding-top: 80px;
-}
-@media screen and (max-width: 992px) {
-  .page-index .pt-80 {
-    padding-top: 60px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .page-index .pt-80 {
-    padding-top: 40px;
-  }
-}
-.page-index .pt-240 {
-  padding-top: 240px;
-}
-@media screen and (max-width: 992px) {
-  .page-index .pt-240 {
-    padding-top: 160px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .page-index .pt-240 {
-    padding-top: 130px;
-  }
-}
-.page-index .py-34 {
-  padding-top: 34px;
-  padding-bottom: 34px;
-}
-@media screen and (max-width: 992px) {
-  .page-index .py-34 {
-    padding-top: 28px;
-    padding-bottom: 28px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .page-index .py-34 {
-    padding-top: 14px;
-    padding-bottom: 14px;
-  }
-}
-.page-index .py-120 {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-@media screen and (max-width: 992px) {
-  .page-index .py-120 {
-    padding-top: 80px;
-    padding-bottom: 90px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .page-index .py-120 {
-    padding-top: 40px;
-    padding-bottom: 60px;
-  }
-}
 .page-index .box {
   background: rgba(255, 255, 255, 0.1098039216);
   width: 578px;
@@ -15047,16 +15065,6 @@ footer {
     margin: 0 auto;
     padding: 16px;
     margin-top: 28px;
-  }
-}
-.page-index .py-80 {
-  padding-top: 80px;
-  padding-bottom: 100px;
-}
-@media screen and (max-width: 767px) {
-  .page-index .py-80 {
-    padding-top: 40px;
-    padding-bottom: 60px;
   }
 }
 .page-index .circle-6 {

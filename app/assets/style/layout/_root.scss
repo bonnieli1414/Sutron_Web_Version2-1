@@ -2,7 +2,7 @@ body {
     color: $success;
 }
 h2 {
-    color: #676665;
+    color: $info;
 }
 .bg-color-fourth {
     background-color: $color-fourth;
@@ -54,11 +54,6 @@ h4 {
         font-size: 24px;
         line-height: 32px;
     }
-    // @include mobile {
-    //     font-weight: 700;
-    //     font-size: 16px;
-    //     line-height: 20px;
-    // }
 }
 h5 {
     font-weight: 700;
@@ -116,6 +111,49 @@ footer {
 .z-index-3 {
     z-index: 3;
 }
+.w-45 {
+    width: 45%;
+}
+.w-sm-40 {
+    @include mobile {
+        width: 40%;
+    }
+}
+.w-76 {
+    width: 76px;
+    height: 76px;
+    @include mobile {
+        width: 40px;
+        height: 40px;
+    }
+}
+.w-316 {
+    width: 316px;
+    @include pad {
+        width: 252px;
+    }
+}
+.bold {
+    font-weight: 700;
+}
+.pt-80 {
+    padding-top: 80px;
+    @include pad {
+        padding-top: 60px;
+    }
+    @include mobile {
+        padding-top: 40px;
+    }
+}
+.pt-240 {
+    padding-top: 240px;
+    @include pad {
+        padding-top: 160px;
+    }
+    @include mobile {
+        padding-top: 130px;
+    }
+}
 .pb-80 {
     padding-bottom: 80px;
 }
@@ -128,12 +166,44 @@ footer {
         padding-bottom: 120px;
     }
 }
-.w-50-sm {
+.py-34 {
+    padding-top: 34px;
+    padding-bottom: 34px;
+    @include pad {
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
     @include mobile {
-        width: 40%;
+        padding-top: 14px;
+        padding-bottom: 14px;
     }
 }
-
-.bold {
-    font-weight: 700;
+.py-80 {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    @include mobile {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+}
+.py-120 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    @include pad {
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
+    @include mobile {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+}
+.pr-84 {
+    padding-right: 84px;
+    @include mobile {
+        padding-right: 0px;
+    }
+}
+.gap-28 {
+    gap: 28px 0px;
 }
