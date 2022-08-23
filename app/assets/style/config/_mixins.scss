@@ -66,18 +66,17 @@
         transform: none;
     }
     .list-menu {
-        // display: block;
-        // flex-direction: column;
+        display: block;
+        flex-direction: column;
     }
     .list-menu-item {
         @include pad {
-            // width: 100%;
-            // border: 1px solid $ham-menu-border-primary;
+            width: 100%;
         }
     }
     .list-menu-item-link {
-        // width: 100%;
-        // padding: 12px 0;
+        width: 100%;
+        padding: 12px 0;
     }
 }
 // 響應式手機或pad版時引入ham-menu
