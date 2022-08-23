@@ -128,3 +128,12 @@ footer {
         padding-bottom: 120px;
     }
 }
+.w-50-sm {
+    @include mobile {
+        width: 40%;
+    }
+}
+
+.bold {
+    font-weight: 700;
+}

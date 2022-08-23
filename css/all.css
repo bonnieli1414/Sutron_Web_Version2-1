@@ -14473,21 +14473,6 @@ textarea.form-control-lg {
   .ham-toggle:checked ~ .header-nav {
     transform: none;
   }
-  .list-menu {
-    display: block;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 992px) and (max-width: 992px) {
-  .list-menu-item {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 992px) {
-  .list-menu-item-link {
-    width: 100%;
-    padding: 12px 0;
-  }
 }
 *, *::before, *::after {
   box-sizing: border-box;
@@ -14803,6 +14788,16 @@ footer {
   .pb-140 {
     padding-bottom: 120px;
   }
+}
+
+@media screen and (max-width: 767px) {
+  .w-50-sm {
+    width: 40%;
+  }
+}
+
+.bold {
+  font-weight: 700;
 }
 
 .page-index .arc {
@@ -15152,52 +15147,29 @@ footer {
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 767px) {
-  .product-camera .w-50-sm {
-    width: 40%;
-  }
-}
-
-.nav-contact-item {
-  width: 50%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 15px;
-  border: 1px solid #DEE2E6;
-}
 .page-contact .map {
-  text-align: center;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
-  padding: 20px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
   .page-contact .map {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
 }
 .page-contact .map-iframe {
   width: 100%;
   margin: 0 auto;
-  height: 300px;
+  height: 500px;
 }
-.page-contact .contact {
-  width: 70%;
-  margin: 0 auto;
-}
-.page-contact .list-contact {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: 10px auto;
+@media screen and (max-width: 992px) {
+  .page-contact .map-iframe {
+    height: 450px;
+  }
 }
 @media screen and (max-width: 767px) {
-  .page-contact .list-contact {
-    width: 100%;
-    margin: 10px auto;
-    flex-direction: column;
-    align-items: center;
+  .page-contact .map-iframe {
+    height: 400px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -15215,125 +15187,16 @@ footer {
   }
 }
 
-.page-messageBoard form {
-  width: 440px;
-  margin: 0 auto;
-  font-weight: 600;
-}
-@media screen and (max-width: 767px) {
-  .page-messageBoard form {
-    width: 350px;
-  }
-}
-.page-messageBoard h3, .page-messageBoard .h3 {
-  text-align: center;
-}
-.page-messageBoard ul {
-  display: flex;
-  flex-direction: column;
-}
-.page-messageBoard .messageBoard-item {
-  display: flex;
-  align-items: center;
-  width: 130%;
-  margin: 0 auto;
-  padding: 10px 0;
-}
-.page-messageBoard .messageBoard-item-input {
-  padding: 5px 0;
-  width: 60%;
-}
-@media screen and (max-width: 767px) {
-  .page-messageBoard .messageBoard-item-input {
-    width: 80%;
-  }
-}
-.page-messageBoard .messageBoard-child {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
-}
-@media screen and (max-width: 767px) {
-  .page-messageBoard .messageBoard-child {
-    flex-wrap: wrap;
-  }
-}
-.page-messageBoard .messageBoard-child-input {
-  padding: 5px 0;
-}
-.page-messageBoard .label {
-  width: 48px;
-}
-.page-messageBoard .messageBoard-opinion {
-  display: flex;
-  flex-direction: column;
-  width: 130%;
-  margin: 0 auto;
-  padding: 10px 0;
-  gap: 10px;
-}
-
-.nav-member-item {
-  width: 25%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 15px;
-  border: 1px solid #DEE2E6;
-}
 .member {
   width: 440px;
   margin: 0 auto;
   font-size: 1.2rem;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1607843137);
   border: 1px solid #DEE2E6;
-  padding: 40px;
 }
 @media screen and (max-width: 767px) {
   .member {
-    max-width: 350px;
+    max-width: 360px;
     margin: 0 auto;
-    padding: 40px 20px;
   }
-}
-.member li {
-  padding: 10px 0;
-}
-.member .member-input {
-  width: 100%;
-  margin: 10px auto;
-  padding: 10px;
-}
-.member p {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.member .btn-form {
-  color: #fff;
-  padding: 10px;
-}
-
-.page-login .code {
-  border-bottom: 1px solid #DEE2E6;
-  margin-bottom: 40px;
-  display: flex;
-  justify-content: flex-end;
-  padding: 20px 10px;
-}
-
-.page-register p {
-  padding: 10px;
-}
-
-.page-changePassword p {
-  padding: 10px;
-}
-
-.member-getPassword p {
-  padding: 10px;
-}
-.member-getPassword .fxd-row-jcfs {
-  display: flex;
-  justify-content: flex-start;
 }/*# sourceMappingURL=all.css.map */
