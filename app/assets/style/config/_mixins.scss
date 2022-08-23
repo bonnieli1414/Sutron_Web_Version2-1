@@ -54,6 +54,7 @@
         text-align: center;
         background-color: $ham-icon-bg-primary;
         position: absolute;
+        z-index: 9999;
         top: 62px;
         left: 0%;
         // left: -100%; //也可藏在左邊，不用動畫
@@ -67,17 +68,16 @@
     .list-menu {
         display: block;
         flex-direction: column;
-        .list-menu-item-link {
+    }
+    .list-menu-item {
+        @include pad {
             width: 100%;
-            padding: 12px 0;
         }
     }
-    header .container .list-menu {
-        gap: 0px;
+    .list-menu-item-link {
+        width: 100%;
+        padding: 12px 0;
     }
-    // .list-menu-item {
-    //     border: 1px solid $ham-menu-border-primary;
-    // }
 }
 // 響應式手機或pad版時引入ham-menu
 @media screen and (max-width: $pad-width) {

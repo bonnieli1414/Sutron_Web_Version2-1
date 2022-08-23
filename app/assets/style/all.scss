@@ -2,6 +2,7 @@
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/aos/dist/aos";
 
 // Configuration
 @import "./config/variables";
@@ -9,7 +10,11 @@
 
 // 全站設定
 @import "./layout/base";
+@import "./layout/header";
+@import "./layout/footer";
 @import "./layout/root";
 
 // Pages
 @import "./pages/index";
+@import "./pages/contact";
+@import "./pages/member";

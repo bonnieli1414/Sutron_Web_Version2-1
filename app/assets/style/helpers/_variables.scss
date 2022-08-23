@@ -68,11 +68,10 @@ $colors: (
 
 // scss-docs-start theme-color-variables
 $primary:       #3D8BA0 !default;
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
-$success:       $green !default;
-$info:          $cyan !default;
-$warning:       $yellow !default;
+$secondary:     #F5F5F5 !default;
+$success:       #223F46 !default;
+$info:          #676665 !default;
+$warning:       #F6AE2D !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
@@ -263,16 +262,10 @@ $spacers: (
   10: $spacer * 2.5,
   11: $spacer * 2.75,
   12: $spacer * 3,
+  13: $spacer * 3.25,
+  14: $spacer * 3.5,
+  15: $spacer * 3.75,
 ) !default;
-$spacers: (
-  0: 0,
-  1: $spacer * .25,
-  2: $spacer * .5,
-  3: $spacer,
-  4: $spacer * 1.5,
-  5: $spacer * 3,
-) !default;
-
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -330,7 +323,7 @@ $grid-breakpoints: (
   md: 768px,
   lg: 992px,
   xl: 1200px,
-  xxl: 1400px
+  xxl: 1400px,
 ) !default;
 // scss-docs-end grid-breakpoints
 
@@ -348,7 +341,7 @@ $container-max-widths: (
   md: 720px,
   lg: 960px,
   xl: 1140px,
-  xxl: 1320px
+  xxl: 1320px,
 ) !default;
 // scss-docs-end container-max-widths
 
@@ -462,8 +455,8 @@ $h1-font-size:                $font-size-base * 3.5 !default;
 $h2-font-size:                $font-size-base * 3 !default;
 $h3-font-size:                $font-size-base * 2.5 !default;
 $h4-font-size:                $font-size-base * 1.75 !default;
-$h5-font-size:                $font-size-base * 1.125 !default;
-$h6-font-size:                $font-size-base !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base * 1.125 !default;
 
 $h1-font-size:                $font-size-base * 2.5 !default;
 $h2-font-size:                $font-size-base * 2 !default;
